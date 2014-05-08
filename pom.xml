@@ -15,13 +15,13 @@
     <commons.dbcp.version>1.4</commons.dbcp.version>
     <commons.beanutils.version>1.8.3</commons.beanutils.version>
     <commons.io.version>2.4</commons.io.version>
-    <commons.lang.version>2.4</commons.lang.version>
-    <commons.collections.version>3.2.1</commons.collections.version>
+    <commons.lang.version>3.1</commons.lang.version>
+    <commons.collections.version>4.0</commons.collections.version>
     <commons.cli.version>1.2</commons.cli.version>
     <commons.pool.version>1.5.6</commons.pool.version>
     <commons.net.version>3.3</commons.net.version>
     <slf4j.version>1.7.2</slf4j.version>
-    <openjpa.version>2.2.2</openjpa.version>
+    <openjpa.version>2.3.0</openjpa.version>
   </properties>
   <scm>
     <developerConnection>scm:git:ssh://${user.name}@code.renci.org/gitroot/hearsay_parent</developerConnection>
@@ -81,13 +81,13 @@
       	<version>${commons.dbcp.version}</version>
       </dependency>
       <dependency>
-      	<groupId>commons-lang</groupId>
-      	<artifactId>commons-lang</artifactId>
+      	<groupId>org.apache.commons</groupId>
+      	<artifactId>commons-lang3</artifactId>
       	<version>${commons.lang.version}</version>
       </dependency>
       <dependency>
-      	<groupId>commons-collections</groupId>
-      	<artifactId>commons-collections</artifactId>
+      	<groupId>org.apache.commons</groupId>
+      	<artifactId>commons-collections4</artifactId>
       	<version>${commons.collections.version}</version>
       </dependency>
       <dependency>
