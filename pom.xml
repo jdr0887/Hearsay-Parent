@@ -15,14 +15,14 @@
     <commons.dbcp.version>1.4</commons.dbcp.version>
     <commons.beanutils.version>1.8.3</commons.beanutils.version>
     <commons.io.version>2.4</commons.io.version>
-    <commons.lang.version>3.1</commons.lang.version>
+    <commons.lang.version>3.4</commons.lang.version>
     <commons.collections.version>4.0</commons.collections.version>
     <commons.cli.version>1.2</commons.cli.version>
     <commons.pool.version>1.5.6</commons.pool.version>
     <commons.net.version>3.3</commons.net.version>
     <commons.httpclient.version>3.1</commons.httpclient.version>
     <commons.configuration.version>1.10</commons.configuration.version>
-    <slf4j.version>1.7.2</slf4j.version>
+    <slf4j.version>1.7.12</slf4j.version>
     <openjpa.version>2.3.0</openjpa.version>
   </properties>
   <scm>
@@ -160,7 +160,7 @@
 	    <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
 	    <Implementation-Title>${project.name}</Implementation-Title>
 	    <Implementation-Version>${project.version}</Implementation-Version>
-	    <Bundle-Vendor>UNC</Bundle-Vendor>
+	    <Bundle-Vendor>RENCI</Bundle-Vendor>
 	    <Include-Resource>{maven-resources}</Include-Resource>
 	    <_versionpolicy>[$(version;==;$(@)),$(version;+;$(@)))</_versionpolicy>
 	    <_removeheaders>Ignore-Package,Include-Resource,Private-Package,Bundle-DocURL</_removeheaders>
