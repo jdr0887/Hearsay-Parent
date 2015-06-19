@@ -2,7 +2,7 @@
   <parent>
     <groupId>org.renci</groupId>
     <artifactId>parent</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
   </parent>
   <name>Hearsay Parent</name>
   <modelVersion>4.0.0</modelVersion>
@@ -234,41 +234,6 @@
   </dependencies>
   <build>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>${maven.site.plugin.version}</version>
-        <configuration>
-	  <reportPlugins>
-	    <plugin>
-	      <groupId>org.apache.maven.plugins</groupId>
-	      <artifactId>maven-project-info-reports-plugin</artifactId>
-	      <version>${maven.project.info.reports.plugin.version}</version>
-	      <configuration>
-		<dependencyDetailsEnabled>true</dependencyDetailsEnabled>
-		<dependencyLocationsEnabled>true</dependencyLocationsEnabled>
-	      </configuration>
-	      <reports>
-	      </reports>
-	    </plugin>
-	    <plugin>
-	      <groupId>org.apache.maven.plugins</groupId>
-	      <artifactId>maven-javadoc-plugin</artifactId>
-	      <version>${maven.javadoc.plugin.version}</version>
-	    </plugin>
-	    <plugin>
-	      <groupId>org.apache.maven.plugins</groupId>
-	      <artifactId>maven-surefire-report-plugin</artifactId>
-	      <version>${maven.surefire.report.plugin.version}</version>
-	    </plugin>
-	    <plugin>
-	      <groupId>org.apache.maven.plugins</groupId>
-	      <artifactId>maven-checkstyle-plugin</artifactId>
-	      <version>${maven.checkstyle.plugin.version}</version>
-	    </plugin>
-	  </reportPlugins>
-        </configuration>
-      </plugin>      
       <plugin>
 	<groupId>org.apache.felix</groupId>
 	<artifactId>maven-bundle-plugin</artifactId>
