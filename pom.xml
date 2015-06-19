@@ -27,7 +27,7 @@
     <karaf.version>3.0.3</karaf.version>
     <cxf.version>3.0.3</cxf.version>
     <jackson.version>2.4.1</jackson.version>
-    <spring.version>3.2.4.RELEASE</spring.version    
+    <spring.version>3.2.4.RELEASE</spring.version>    
   </properties>
   <scm>
     <url>https://github.com/jdr0887/Hearsay-Parent</url>
