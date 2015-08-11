@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.renci.hearsay</groupId>
   <artifactId>parent</artifactId>
-  <version>0.0.18-SNAPSHOT</version>
+  <version>0.0.18</version>
   <packaging>pom</packaging>
   <properties>
     <commons.discovery.version>0.5</commons.discovery.version>
@@ -34,7 +34,7 @@
     <url>https://github.com/jdr0887/Hearsay-Parent</url>
     <developerConnection>scm:git:git@github.com:jdr0887/Hearsay-Parent.git</developerConnection>
     <connection>scm:git:git@github.com:jdr0887/Hearsay-Parent.git</connection>
-    <tag>HEAD</tag>
+    <tag>parent-0.0.18</tag>
   </scm>
   <dependencyManagement>
     <dependencies>
